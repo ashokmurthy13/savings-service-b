@@ -1,0 +1,21 @@
+2022-02-28 13:52:34.471  INFO 32574 --- [main] c.k.s.app.KadmosSavingsApplication       : Starting KadmosSavingsApplication using Java 1.8.0_312 on Ashoks-MacBook-Pro.local with PID 32574 (/Users/ashokmurthy/TechStack/Interviews/savings-service/build/classes/java/main started by ashokmurthy in /Users/ashokmurthy/TechStack/Interviews/savings-service)
+2022-02-28 13:52:34.474  INFO 32574 --- [main] c.k.s.app.KadmosSavingsApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-02-28 13:52:41.313  INFO 32574 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-02-28 13:52:41.342  INFO 32574 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-28 13:52:41.421  INFO 32574 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-02-28 13:52:41.673  INFO 32574 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-28 13:52:41.674  INFO 32574 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7013 ms
+2022-02-28 13:52:42.054  INFO 32574 --- [main] c.k.s.app.config.SavingsDatabaseConfig   : Datasource successfully initialized.
+2022-02-28 13:52:43.841  INFO 32574 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-28 13:52:43.894  INFO 32574 --- [main] c.k.s.app.KadmosSavingsApplication       : Started KadmosSavingsApplication in 10.459 seconds (JVM running for 11.32)
+2022-02-28 13:53:10.703  INFO 32574 --- [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-28 13:53:10.705  INFO 32574 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-28 13:53:10.719  INFO 32574 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2022-02-28 14:17:30.905  INFO 37566 --- [Test worker] c.k.s.app.KadmosSavingsApplicationTests  : Starting KadmosSavingsApplicationTests using Java 1.8.0_312 on Ashoks-MacBook-Pro.local with PID 37566 (started by ashokmurthy in /Users/ashokmurthy/TechStack/Interviews/savings-service)
+2022-02-28 14:17:30.910  INFO 37566 --- [Test worker] c.k.s.app.KadmosSavingsApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-02-28 14:17:32.412  INFO 37566 --- [Test worker] c.k.s.app.config.SavingsDatabaseConfig   : Datasource successfully initialized.
+2022-02-28 14:17:34.568  INFO 37566 --- [Test worker] c.k.s.app.KadmosSavingsApplicationTests  : Started KadmosSavingsApplicationTests in 4.29 seconds (JVM running for 5.892)
+2022-02-28 14:28:10.124  INFO 39749 --- [Test worker] c.k.s.app.KadmosSavingsApplicationTests  : Starting KadmosSavingsApplicationTests using Java 1.8.0_312 on Ashoks-MacBook-Pro.local with PID 39749 (started by ashokmurthy in /Users/ashokmurthy/TechStack/Interviews/savings-service)
+2022-02-28 14:28:10.132  INFO 39749 --- [Test worker] c.k.s.app.KadmosSavingsApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-02-28 14:28:14.382  INFO 39749 --- [Test worker] c.k.s.app.config.SavingsDatabaseConfig   : Datasource successfully initialized.
+2022-02-28 14:28:17.456  INFO 39749 --- [Test worker] c.k.s.app.KadmosSavingsApplicationTests  : Started KadmosSavingsApplicationTests in 8.165 seconds (JVM running for 10.462)
